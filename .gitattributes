@@ -1,6 +1,7 @@
-# Ignore the Flutter platform folders for language stats
+# Ignore Flutter platform code from language stats
+**/android/** linguist-vendored
+**/ios/** linguist-vendored
 **/windows/** linguist-vendored
 **/linux/** linguist-vendored
 **/macos/** linguist-vendored
-**/android/** linguist-vendored
-**/ios/** linguist-vendored
+**/web/** linguist-vendored
