@@ -1,7 +1,9 @@
-# Ignore Flutter platform code from language stats
-**/android/** linguist-vendored
-**/ios/** linguist-vendored
-**/windows/** linguist-vendored
-**/linux/** linguist-vendored
-**/macos/** linguist-vendored
-**/web/** linguist-vendored
+# Ignore huge Flutter generated files
+*.lock linguist-vendored
+*.packages linguist-vendored
+.flutter-plugins linguist-vendored
+.flutter-plugins-dependencies linguist-vendored
+.metadata linguist-vendored
+
+# Force Python detection (just in case)
+*.py linguist-detectable=true
